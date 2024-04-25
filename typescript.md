@@ -1,6 +1,6 @@
 # イベント処理の型
 
-```ts
+```typescript:index.ts
 onClick: (event: React.MouseEvent<HTMLInputElement>) => void
 onChange: (event: React.ChangeEvent<HTMLInputElement>) => void
 onkeypress: (event: React.KeyboardEvent<HTMLInputElement>) => void
