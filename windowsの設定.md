@@ -12,3 +12,9 @@ https://qiita.com/yoshi_yast/items/5eaa917e567b3add55ac
 エラーが出たら以下を参照
 
 https://v-sli.me/blog/chsh-pam-authentication-failure
+
+
+## oh-my-zshのインストールについて
+https://zenn.dev/momota/articles/d15066fc370cd9
+
+
