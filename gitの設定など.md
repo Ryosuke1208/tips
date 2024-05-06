@@ -1,3 +1,7 @@
-## git tokenの発行について
+## git ssh接続について
 
-https://dev.classmethod.jp/articles/github-personal-access-tokens/
+https://docs.github.com/ja/authentication/connecting-to-github-with-ssh
+
+
+公式のとおりやるだけ
+ぱすふれーずはいれなくてOK
