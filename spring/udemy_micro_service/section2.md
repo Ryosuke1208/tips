@@ -7,7 +7,7 @@
 ## Eclipseの動作を軽くする設定
 
 - eclipse.ini の編集 Javaヒープサイズをはじめから多めに。
-![alt text](./images/image-1.png)
+![alt text](../../images/spring/image-1.png)
 - Eclipseのテーマをクラシックに変更する (効果:小)
   - ウィンドウ > 設定 > 一般 > 外観
 - ウィルスソフトの検知対象から作業フォルダをはずす (効果:小) 
@@ -17,7 +17,7 @@
 - Spring Initializrは条件を選択・入力し、Spring Bootプロジェクトの雛形を生成するWebサービスです。ブラウザ上もしくはSpring Tool Suite (Pleiades (Eclipse))上で、ビルドツールやバージョン、成果物の情報を入力・選択して、アプリケーションのひな形を簡単に生成することが出来るサービスです。
 - eclipse上で、ファイル→新規→Springスタータープロジェクト　で作成してもOK
 
-![alt text](./images/image-2.png)
+![alt text](../../images/spring/image-2.png)
 
 ## @SpringBootApplication
 
@@ -42,7 +42,7 @@ public class Spring1hello1Application {
 - 各プロジェクトの`実行→SpringBootアプリケーション`はこれが記述されたファイルを見つけて、起動している。
 - 下記のように起動時に、`PORT:8080`を使用していることが確認できる
   
-![alt text](./images/image-3.png)
+![alt text](../../images/spring/image-3.png)
 
 ## Controllerクラスについて
 
@@ -58,16 +58,16 @@ public class Spring1hello1Application {
 - value 属性にURLのパスを指定する
 - 紐づいているメソッドが実行される
 
-![alt text](./images/image-5.png)
+![alt text](../../images/spring/image-5.png)
 
 ## PORT変更について
 
 Spring Boot はデフォルトで8080ポートで起動しますが、application.propertiesに設定する事で任意のポートに変更することができます。
 
-![alt text](./images/image-4.png)
+![alt text](../../images/spring/image-4.png)
 
 ## 初期表示のpathについて
 
-![alt text](./images/image-6.png)
+![alt text](../../images/spring/image-6.png)
 
 プロパティーをひらいて、pathをしていすることで、初期の繊維画面を変更することができる。上記例だと、`http://localhost:8081/welcome`に初期アクセス

@@ -12,7 +12,7 @@
     - POST 対象のデータをサーバ上に送信するときに使用し、データを登録する
     - DELETE ID等によって、対象のデータを削除する
 
-![alt text](./images/image.png)
+![alt text](../../images/spring/image.png)
 
 
 - 標準的なHTTPリクエストメソッド (GET/POST/PUT/DELETE) を使用して、APIを実装する
